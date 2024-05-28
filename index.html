@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SkillHub - Gestión de Proyectos</title>
+    <link rel="icon" href="pictures/logo_sk.png">
+    <link rel="stylesheet" href="styles_index.css">
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.3.0/uicons-solid-straight/css/uicons-solid-straight.css'>
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.3.0/uicons-solid-rounded/css/uicons-solid-rounded.css'>
+    
+</head>
+<body>
+    <header>
+        <div class="container_nav">
+            <h1>SkillHub</h1>
+            <nav>
+                <ul>
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#feature">Características</a></li>
+                    <li><a href="#about">Sobre Nosotros</a></li>
+                    <li><a href="#contact">Contacto</a></li>
+                </ul>
+            </nav>
+            <button>Únete</button>
+        </div>
+    </header>
+
+    <section id="inicio" class="inicio">
+        <div class="container_information">
+            <div class="text_information">
+                <h2><span>Gestiona</span> tus <span>proyectos</span> de <br> manera <span>eficiente</span>.</h2>
+                <p>
+                    Con herramientas intuitivas y reportes detallados, facilitamos la organización y el seguimiento del progreso en tiempo real.
+                </p>
+                <div class="buttons_information">
+                    <button>Leer más</button>
+                    <button>Unirse</button>
+                </div>
+            </div>
+            <div class="container_img">
+                <img src="pictures/hombre_empresario.png" alt="">
+            </div>
+        </div>
+    </section>
+
+    <section id="feature" class="caracteristicas">
+        <div class="caracteristicas_contenedor">
+            <h2>CARACTERÍSTICAS</h2>
+            <div class="caracteristicas_contenedor_items">
+                <div class="items_caracteristicas">
+                    <i class="fi fi-sr-pending"></i>
+                    <span>Seguimiento Integral</span>
+                    <p>Control total desde la planificación hasta la implementación.</p>
+                </div>
+                <div class="items_caracteristicas">
+                    <i class="fi fi-ss-team-check"></i>
+                    <span>Colaboración Eficiente</span>
+                    <p>Facilita la comunicación y la colaboración en equipo.</p>
+                </div>
+                <div class="items_caracteristicas">
+                    <i class="fi fi-ss-workflow-setting-alt"></i>
+                    <span>Gestión de Recursos</span>
+                    <p>Optimiza el uso de recursos para maximizar la eficiencia.</p>
+                </div>
+                <div class="items_caracteristicas">
+                    <i class="fi fi-sr-stats"></i>
+                    <span>Análisis Avanzado:</span>
+                    <p>Ofrece insights detallados para tomar decisiones informadas.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <div class="sobreInterfaz">
+        <div class="img_container">
+            <img src="pictures/interfaz_inteligente.png" alt="">
+        </div>
+        <div class="information_interfaz">
+            <h2>Sistema inteligente e interfaz amigable</h2>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla sequi dolorem saepe temporibus sit accusantium ab inventore. Assumenda eveniet explicabo corporis voluptates, recusandae consectetur omnis earum quisquam qui, voluptate cumque.
+            </p>
+            <a href="#">Leer más</a>
+        </div>
+    </div>
+
+    <section id="about" class="about">
+        <div class="about_container">
+            <h2>Sobre Nosotros</h2>
+            <div class="about_content">
+                <div class="about_text">
+                    <p>SkillHub es un equipo apasionado comprometido con la excelencia en la gestión de proyectos. Nuestra misión es proporcionar herramientas innovadoras y soluciones eficientes para que puedas alcanzar tus objetivos empresariales con éxito.</p>
+                    <p>Con una combinación única de experiencia en tecnología y gestión, nuestro equipo está dedicado a simplificar y potenciar tus procesos, permitiéndote concentrarte en lo que realmente importa: hacer crecer tu negocio.</p>
+                </div>
+                <div class="about_image">
+                    <img src="pictures/equipo.png" alt="Equipo de SkillHub">
+                </div>
+            </div>
+        </div>
+    </section>    
+
+
+    <section id="contact" class="contact">
+        <div class="contact_container">
+            <h2>Contacto</h2>
+            <p>¡Estamos aquí para ayudarte! Déjanos tu mensaje y te responderemos lo antes posible.</p>
+            <form action="procesar_formulario.php" method="post" class="contact_form">
+                <input type="text" name="nombre" placeholder="Nombre" required>
+                <input type="email" name="correo" placeholder="Correo electrónico" required>
+                <textarea name="mensaje" placeholder="Mensaje" rows="5" required></textarea>
+                <input type="submit" value="Enviar mensaje">
+            </form>
+            <div class="subscribe">
+                <h3>Suscríbete para recibir notificaciones</h3>
+                <form action="procesar_suscripcion.php" method="post" class="subscribe_form">
+                    <input type="email" name="correo" placeholder="Tu correo electrónico" required>
+                    <input type="submit" value="Suscribirse">
+                </form>
+            </div>
+        </div>
+        <div class="contact_img_container">
+            <img src="pictures/contacto.png" alt="">
+        </div>
+    </section>
+    
+
+    <footer>
+        <div class="footer_container">
+            <div class="footer_about">
+                <h3>Sobre SkillHub</h3>
+                <p>SkillHub es una plataforma innovadora dedicada a mejorar la gestión de proyectos con herramientas intuitivas y eficientes. Nuestra misión es ayudar a los equipos a alcanzar sus objetivos empresariales.</p>
+            </div>
+            <div class="footer_links">
+                <h3>Enlaces Rápidos</h3>
+                <ul>
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#feature">Características</a></li>
+                    <li><a href="#about">Sobre Nosotros</a></li>
+                    <li><a href="#contact">Contacto</a></li>
+                </ul>
+            </div>
+            <div class="footer_contact">
+                <h3>Contacto</h3>
+                <p>Email: info@skillhub.com</p>
+                <p>Teléfono: +123 456 7890</p>
+                <div class="social_media">
+                    <a href="#"><i class="fi fi-brands-facebook"></i></a>
+                    <a href="#"><i class="fi fi-brands-twitter"></i></a>
+                    <a href="#"><i class="fi fi-brands-linkedin"></i></a>
+                </div>
+            </div>
+            <div class="f_widget social-widget pl_70 wow fadeInLeft" data-wow-delay="0.8s" style="visibility: visible; animation-delay: 0.8s; animation-name: fadeInLeft;">
+                <h3 class="f-title f_600 t_color f_size_18">Redes sociales</h3>
+                <div class="f_social_icon">
+                    <ul>
+                        <li><a href="#" class="fa-brands fa-facebook"></a></li>
+                        <li><a href="#" class="fa-brands fa-whatsapp"></a></li>
+                        <li><a href="#" class="fa-brands fa-instagram"></a></li>
+                        <li><a href="#" class="fa-brands fa-x-twitter"></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer_bottom">
+            <p>&copy; 2024 SkillHub. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+
+
+</body>
+</html>
